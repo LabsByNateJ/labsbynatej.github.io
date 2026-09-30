@@ -56,7 +56,7 @@ header {
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .logo {
@@ -68,7 +68,7 @@ header {
 
 .nav-links {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 26px;
 }
 
@@ -684,7 +684,7 @@ footer {
   align-items: center;
   gap: 32px;
   margin-left: auto;
-   
+  padding-top: 2px;
 }
 
 
