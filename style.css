@@ -681,19 +681,10 @@ footer {
 
 .footer-links {
   display: flex;
-  gap: 22px;
-}
-
-.footer-links a {
-  color: #aeb8c7;
-
-  font-size: 13px;
-
-  transition: color 0.2s ease;
-}
-
-.footer-links a:hover {
-  color: #ffffff;
+  align-items: center;
+  gap: 32px;
+  margin-left: auto;
+   
 }
 
 
@@ -824,14 +815,16 @@ footer {
 
   /* FOOTER */
 
-  footer {
-    padding: 34px 20px 45px;
+footer {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 38px 24px 55px;
+  border-top: 1px solid #202938;
 
-    flex-direction: column;
-    align-items: flex-start;
-
-    gap: 24px;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 }
 
