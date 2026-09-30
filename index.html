@@ -1,42 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>LabsByNateJ | Cloud & Cybersecurity</title>
+  <title>LabsByNateJ | Cloud & Security</title>
 
-  <meta name="description"
-        content="LabsByNateJ is Nate Jumriyani's technical portfolio featuring hands-on cloud and cybersecurity projects.">
+  <meta
+    name="description"
+    content="LabsByNateJ is Nate Jumriyani's technical portfolio featuring hands-on cloud, security, automation, infrastructure, and IT learning projects."
+  >
 
   <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
 
-  <!-- Navigation -->
+  <!-- ================================
+       NAVIGATION
+  ================================= -->
+
   <header>
+
     <nav class="navbar">
-      <a href="#" class="logo">LabsByNateJ</a>
+
+      <a href="#home" class="logo">
+        LabsByNateJ
+      </a>
 
       <div class="nav-links">
+
         <a href="#about">About</a>
+
         <a href="#projects">Projects</a>
-        <a href="#building">Currently Building</a>
-        <a href="https://github.com/LabsByNateJ" target="_blank">GitHub</a>
+
+        <a href="#certifications">Certifications</a>
+
+        <a href="#knowledge">Knowledge Base</a>
+
+        <a
+          href="https://github.com/LabsByNateJ"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+
       </div>
+
     </nav>
+
   </header>
 
 
-  <!-- Hero -->
+
   <main>
 
-    <section class="hero">
+
+    <!-- ================================
+         HERO
+    ================================= -->
+
+    <section id="home" class="hero">
 
       <div class="hero-content">
 
-        <p class="eyebrow">CLOUD & CYBERSECURITY</p>
+        <p class="eyebrow">
+          CLOUD & SECURITY
+        </p>
 
         <h1>
           Building. Testing.<br>
@@ -44,19 +78,36 @@
         </h1>
 
         <p class="hero-description">
-          I'm Nate Jumriyani. LabsByNateJ is where I build and document
-          hands-on projects across Microsoft Azure, cybersecurity,
-          identity, vulnerability management, and automation.
+
+          I'm Nate Jumriyani.
+
+          LabsByNateJ is where I build, test, and document
+          hands-on projects across cloud infrastructure,
+          security, identity, vulnerability management,
+          automation, and enterprise technology.
+
         </p>
 
-        <div class="hero-buttons">
-          <a href="#projects" class="button primary">View Projects</a>
 
-          <a href="https://github.com/LabsByNateJ"
-             target="_blank"
-             class="button secondary">
-             View GitHub
+        <div class="hero-buttons">
+
+          <a
+            href="#projects"
+            class="button primary"
+          >
+            View Projects
           </a>
+
+
+          <a
+            href="https://github.com/LabsByNateJ"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button secondary"
+          >
+            View GitHub
+          </a>
+
         </div>
 
       </div>
@@ -64,129 +115,761 @@
     </section>
 
 
-    <!-- About -->
+
+    <!-- ================================
+         ABOUT
+    ================================= -->
+
     <section id="about" class="section">
 
-      <p class="section-label">ABOUT</p>
+      <p class="section-label">
+        ABOUT
+      </p>
 
-      <h2>Practical technology. Documented.</h2>
+      <h2>
+        Hands-On Cloud & Security.
+      </h2>
+
 
       <p class="section-description">
-        LabsByNateJ is my technical portfolio for documenting hands-on
-        cloud and cybersecurity projects. I use these labs to design
-        environments, test technologies, troubleshoot problems, and
-        document what I learn along the way.
+
+        LabsByNateJ is my technical portfolio for turning
+        concepts into practical experience.
+
+        I use these projects to build environments,
+        troubleshoot real problems, test technologies,
+        automate repetitive tasks, strengthen security,
+        and document what I learn along the way.
+
+      </p>
+
+
+      <p class="section-description about-secondary">
+
+        The goal is simple: keep learning by building,
+        document the process, and create resources that
+        can also help other IT professionals and beginners.
+
       </p>
 
     </section>
 
 
-    <!-- Projects -->
-    <section id="projects" class="section projects-section">
 
-      <p class="section-label">FEATURED WORK</p>
+    <!-- ================================
+         FEATURED PROJECTS
+    ================================= -->
 
-      <h2>Projects & Labs</h2>
+    <section
+      id="projects"
+      class="section projects-section"
+    >
 
-      <div class="project-grid">
+      <p class="section-label">
+        HANDS-ON WORK
+      </p>
 
-        <article class="project-card">
+      <h2>
+        Featured Projects
+      </h2>
 
-          <div class="project-number">01</div>
 
-          <span class="status">IN PROGRESS</span>
+      <p class="section-description">
 
-          <h3>Enterprise Infrastructure Lab</h3>
+        A collection of completed projects and active labs
+        covering cloud automation, infrastructure, security,
+        identity, and enterprise technologies.
 
-          <p>
-            Building an enterprise-style environment to practice
-            identity, infrastructure management, patching, monitoring,
-            security hardening, and troubleshooting.
-          </p>
+      </p>
 
-          <div class="tags">
-            <span>Windows Server</span>
-            <span>Active Directory</span>
-            <span>DNS</span>
-            <span>GPO</span>
-            <span>WSUS</span>
+
+
+      <!-- COMPLETED PROJECTS -->
+
+      <div class="project-category">
+
+        <div class="category-heading">
+
+          <div>
+
+            <span class="category-dot completed-dot"></span>
+
+            <span class="category-title">
+              COMPLETED
+            </span>
+
           </div>
 
-        </article>
+        </div>
 
 
-        <article class="project-card">
 
-          <div class="project-number">02</div>
+        <div class="project-grid">
 
-          <span class="status">IN PROGRESS</span>
 
-          <h3>Azure Security & Identity Lab</h3>
+          <!-- Spot VM Automation -->
 
-          <p>
-            Hands-on Azure security projects focused on identity,
-            access control, monitoring, security operations, and
-            troubleshooting.
-          </p>
+          <article class="project-card completed-project">
 
-          <div class="tags">
-            <span>Azure</span>
-            <span>Entra ID</span>
-            <span>RBAC</span>
-            <span>Sentinel</span>
-            <span>KQL</span>
+            <div class="project-top">
+
+              <div class="project-number">
+                01
+              </div>
+
+              <span class="status completed-status">
+                COMPLETED
+              </span>
+
+            </div>
+
+
+            <h3>
+              Azure Spot VM Snapshot Automation
+            </h3>
+
+
+            <p>
+
+              Cloud automation project focused on protecting
+              Azure Spot VM workloads by automating snapshot
+              operations and documenting the implementation
+              as a reusable technical project.
+
+            </p>
+
+
+            <div class="tags">
+
+              <span>Microsoft Azure</span>
+
+              <span>Automation</span>
+
+              <span>Virtual Machines</span>
+
+              <span>Snapshots</span>
+
+              <span>Cloud Operations</span>
+
+            </div>
+
+
+            <a
+              href="https://github.com/LabsByNateJ/spotvm-snapshot-automation"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View Project →
+            </a>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+
+
+      <!-- PROJECTS IN PROGRESS -->
+
+      <div class="project-category">
+
+        <div class="category-heading">
+
+          <div>
+
+            <span class="category-dot progress-dot"></span>
+
+            <span class="category-title">
+              IN PROGRESS
+            </span>
+
           </div>
 
-        </article>
+        </div>
+
+
+
+        <div class="project-grid">
+
+
+          <!-- Enterprise Lab -->
+
+          <article class="project-card">
+
+            <div class="project-top">
+
+              <div class="project-number">
+                02
+              </div>
+
+              <span class="status">
+                IN PROGRESS
+              </span>
+
+            </div>
+
+
+            <h3>
+              Enterprise Infrastructure Lab
+            </h3>
+
+
+            <p>
+
+              Building an enterprise-style environment
+              for hands-on practice with identity,
+              infrastructure management, patching,
+              monitoring, administration, and
+              troubleshooting.
+
+            </p>
+
+
+            <div class="tags">
+
+              <span>Windows Server</span>
+
+              <span>Active Directory</span>
+
+              <span>DNS</span>
+
+              <span>Group Policy</span>
+
+              <span>WSUS</span>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- Azure Security Lab -->
+
+          <article class="project-card">
+
+            <div class="project-top">
+
+              <div class="project-number">
+                03
+              </div>
+
+              <span class="status">
+                IN PROGRESS
+              </span>
+
+            </div>
+
+
+            <h3>
+              Azure Security & Identity Lab
+            </h3>
+
+
+            <p>
+
+              Hands-on Azure projects focused on identity,
+              access control, security monitoring,
+              privileged access, troubleshooting,
+              and cloud security operations.
+
+            </p>
+
+
+            <div class="tags">
+
+              <span>Azure</span>
+
+              <span>Entra ID</span>
+
+              <span>RBAC</span>
+
+              <span>Sentinel</span>
+
+              <span>KQL</span>
+
+              <span>Identity</span>
+
+            </div>
+
+          </article>
+
+
+        </div>
 
       </div>
 
     </section>
 
 
-    <!-- Currently Building -->
-    <section id="building" class="section building-section">
 
-      <p class="section-label">WHAT'S NEXT</p>
+    <!-- ================================
+         CERTIFICATIONS
+    ================================= -->
 
-      <h2>Currently Building</h2>
+    <section
+      id="certifications"
+      class="section certifications-section"
+    >
+
+      <p class="section-label">
+        CERTIFICATIONS
+      </p>
+
+
+      <h2>
+        Certifications
+      </h2>
+
 
       <p class="section-description">
-        Expanding the lab with vulnerability management, patch
-        management, security baselines, compliance validation,
-        and automation.
+
+        Industry certifications supporting my foundation
+        across cloud, cybersecurity, networking,
+        and IT infrastructure.
+
       </p>
+
+
+
+      <div class="cert-grid">
+
+
+        <!-- Security+ -->
+
+        <article class="cert-card">
+
+          <div class="cert-provider">
+            COMPTIA
+          </div>
+
+          <h3>
+            Security+
+          </h3>
+
+          <p>
+            Cybersecurity fundamentals, risk management,
+            security operations, architecture, and
+            incident response.
+          </p>
+
+        </article>
+
+
+
+        <!-- Network+ -->
+
+        <article class="cert-card">
+
+          <div class="cert-provider">
+            COMPTIA
+          </div>
+
+          <h3>
+            Network+
+          </h3>
+
+          <p>
+            Networking fundamentals, protocols,
+            infrastructure, troubleshooting,
+            and network security.
+          </p>
+
+        </article>
+
+
+
+        <!-- A+ -->
+
+        <article class="cert-card">
+
+          <div class="cert-provider">
+            COMPTIA
+          </div>
+
+          <h3>
+            A+
+          </h3>
+
+          <p>
+            IT support, operating systems,
+            hardware, networking, security,
+            and technical troubleshooting.
+          </p>
+
+        </article>
+
+
+
+        <!-- AZ-900 -->
+
+        <article class="cert-card">
+
+          <div class="cert-provider">
+            MICROSOFT
+          </div>
+
+          <h3>
+            Azure Fundamentals
+          </h3>
+
+          <p class="cert-code">
+            AZ-900
+          </p>
+
+          <p>
+            Microsoft Azure cloud concepts,
+            services, security, governance,
+            and cloud management.
+          </p>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================================
+         IT KNOWLEDGE BASE
+    ================================= -->
+
+    <section
+      id="knowledge"
+      class="section knowledge-section"
+    >
+
+      <p class="section-label">
+        LEARN WITH LABSBYNATEJ
+      </p>
+
+
+      <h2>
+        IT Knowledge Base
+      </h2>
+
+
+      <p class="section-description">
+
+        Straightforward technical guides, notes,
+        commands, and walkthroughs designed to help
+        beginners build a stronger foundation in IT.
+
+      </p>
+
+
+
+      <div class="knowledge-intro">
+
+        <div>
+
+          <h3>
+            Helping beginners learn the fundamentals.
+          </h3>
+
+          <p>
+
+            IT can feel overwhelming when you're starting out.
+
+            This section breaks technical topics into practical,
+            beginner-friendly documentation that can be used
+            for studying, troubleshooting, labs, and everyday
+            reference.
+
+          </p>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="knowledge-grid">
+
+
+        <!-- Command Line -->
+
+        <article class="knowledge-card">
+
+          <div class="knowledge-icon">
+            &gt;_
+          </div>
+
+          <h3>
+            Command Line
+          </h3>
+
+          <p>
+
+            Practical Windows and PowerShell commands
+            for troubleshooting and system administration.
+
+          </p>
+
+          <div class="knowledge-topics">
+
+            <span>ipconfig</span>
+
+            <span>nslookup</span>
+
+            <span>tracert</span>
+
+            <span>netstat</span>
+
+            <span>PowerShell</span>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- Networking -->
+
+        <article class="knowledge-card">
+
+          <div class="knowledge-icon">
+            NET
+          </div>
+
+          <h3>
+            Networking Basics
+          </h3>
+
+          <p>
+
+            Beginner-friendly explanations of networking
+            concepts and common troubleshooting techniques.
+
+          </p>
+
+          <div class="knowledge-topics">
+
+            <span>DNS</span>
+
+            <span>DHCP</span>
+
+            <span>TCP/IP</span>
+
+            <span>Ports</span>
+
+            <span>Connectivity</span>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- Windows -->
+
+        <article class="knowledge-card">
+
+          <div class="knowledge-icon">
+            WIN
+          </div>
+
+          <h3>
+            Windows & Active Directory
+          </h3>
+
+          <p>
+
+            Notes and guides covering Windows administration,
+            Active Directory, users, groups, policies,
+            and common support tasks.
+
+          </p>
+
+          <div class="knowledge-topics">
+
+            <span>Windows</span>
+
+            <span>Active Directory</span>
+
+            <span>GPO</span>
+
+            <span>Users</span>
+
+            <span>Groups</span>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- Cloud -->
+
+        <article class="knowledge-card">
+
+          <div class="knowledge-icon">
+            AZ
+          </div>
+
+          <h3>
+            Azure Fundamentals
+          </h3>
+
+          <p>
+
+            Practical notes explaining core Azure
+            services, identity, permissions,
+            monitoring, and cloud concepts.
+
+          </p>
+
+          <div class="knowledge-topics">
+
+            <span>Azure</span>
+
+            <span>Entra ID</span>
+
+            <span>RBAC</span>
+
+            <span>VMs</span>
+
+            <span>Monitoring</span>
+
+          </div>
+
+        </article>
+
+
+      </div>
+
+
+      <div class="knowledge-cta">
+
+        <p>
+          More beginner guides and technical documentation
+          will be added as the knowledge base grows.
+        </p>
+
+
+        <a
+          href="https://github.com/LabsByNateJ"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button secondary"
+        >
+          Browse GitHub
+        </a>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================================
+         CURRENTLY BUILDING
+    ================================= -->
+
+    <section
+      id="building"
+      class="section building-section"
+    >
+
+      <p class="section-label">
+        WHAT'S NEXT
+      </p>
+
+
+      <h2>
+        Currently Building
+      </h2>
+
+
+      <p class="section-description">
+
+        Technologies and skills I'm actively developing
+        through hands-on labs, projects, and technical
+        documentation.
+
+      </p>
+
 
       <div class="building-tags">
+
         <span>Nessus</span>
+
         <span>Vulnerability Management</span>
+
         <span>WSUS</span>
-        <span>STIG / SCAP</span>
+
         <span>NIST 800-53</span>
+
         <span>POA&M</span>
+
         <span>PowerShell</span>
+
+        <span>Azure Automation</span>
+
       </div>
 
     </section>
+
 
   </main>
 
 
-  <!-- Footer -->
+
+  <!-- ================================
+       FOOTER
+  ================================= -->
+
   <footer>
 
-    <div>
-      <strong>LabsByNateJ</strong>
-      <p>Cloud & Cybersecurity</p>
+
+    <div class="footer-brand">
+
+      <strong>
+        LabsByNateJ
+      </strong>
+
+      <p>
+        Cloud & Security
+      </p>
+
     </div>
 
+
+
     <div class="footer-links">
-      <a href="https://github.com/LabsByNateJ" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/natejumriyani" target="_blank">LinkedIn</a>
-      <a href="mailto:nateju2@gmail.com">Contact</a>
+
+      <a
+        href="https://github.com/LabsByNateJ"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub
+      </a>
+
+
+      <a
+        href="https://www.linkedin.com/in/natejumriyani"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        LinkedIn
+      </a>
+
+
+      <a href="mailto:nateju2@gmail.com">
+        Contact
+      </a>
+
     </div>
+
 
   </footer>
 
+
 </body>
+
 </html>
