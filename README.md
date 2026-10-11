@@ -11,9 +11,9 @@ Cloud, cybersecurity, and enterprise IT portfolio for LabsByNateJ.
 
 Hi, I'm Nafee, but I go by Nate.
 
-I created LabsByNateJ to share my hands-on IT projects, document what I'm learning, and continue building my skills in cloud engineering and cybersecurity.
+I created LabsByNateJ to share my hands-on IT projects, document what I'm learning, and continue building my skills in cloud engineering and security.
 
-I have over six years of experience in IT, including working with Microsoft Azure, Windows Server, system administration, and security monitoring.
+I have over six years of experience in IT, including working with Azure, system administration, and security.
 
 My goal with this website is simple: build projects, document the process, and share what I've learned along the way.
 
@@ -40,7 +40,7 @@ Here are some of the technologies and tools I've worked with professionally or t
 | Backup & Recovery | Azure Site Recovery |
 | Automation | PowerShell (Basic Administration and Scripting) |
 
-I'm continuing to strengthen my knowledge in system administration, networking, automation, and security.
+I'm continuing to strengthen my knowledge in cloud, system administration, and security.
 
 ## Projects
 
@@ -57,8 +57,6 @@ As I complete new projects, I'll continue adding them to my website and GitHub.
 - CompTIA Security+
 - Microsoft Azure Fundamentals (AZ-900)
 - Google IT Support Professional Certificate
-
-I'm currently working toward Microsoft Azure Administrator (AZ-104).
 
 ## Why I Built LabsByNateJ
 
